@@ -4,7 +4,7 @@
 - Eclipse Neon https://www.eclipse.org/downloads/packages/release/neon/3/eclipse-ide-java-ee-developers Download and extract.
 - Apache Tomcat 8.5 https://tomcat.apache.org/download-80.cgi Download and extract.
 - Download the repository and extract.
-# Setps
+# Set Up
 - Launch the Eclipse in any workspace
 - File->imports-> type maven in search-> select existing maven project-> next-> browse the extracted repository's folder-> next.
 - Right Click on Imported project -> update maven.
