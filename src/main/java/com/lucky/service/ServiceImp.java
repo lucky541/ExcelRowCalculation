@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 public class ServiceImp implements ServiceLocal {
 
 	public ResultDto  getNum(String s) {
-		Map<Character,Integer> map = new HashMap<>();
+		Map<Character,Integer> map = new HashMap();
 		char ch =0;
 	    for(int i=1;i<=26;i++){
 	    	ch = (char)(64+i);
@@ -34,7 +34,7 @@ public class ServiceImp implements ServiceLocal {
 		
 		String s=  "A";
 		
-		Map<Character,Integer> map = new HashMap<>();
+		Map<Character,Integer> map = new HashMap();
 		char ch =0;
 	    for(int i=1;i<=26;i++){
 	    	ch = (char)(64+i);
