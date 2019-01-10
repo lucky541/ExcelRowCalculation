@@ -8,7 +8,7 @@
 - Launch the Eclipse in any workspace
 - File->imports-> type maven in search-> select existing maven project-> next-> browse the extracted repository's folder-> next.
 - Right Click on Imported project -> update maven.
-- Right Click on Project -> Properties -> Deployment Assembly -> Add -> Java Build Path entities -> next -> Maven Dependencies -> Finish.
+- Right Click on Project -> Properties -> Deployment Assembly -> Add -> Java Build Path entities -> next -> Maven Dependencies -> Finish-Apply->Ok.
 - Right Click on Project -> Run As -> Run on Server -> Apache -> Tomcat v8.5 Server -> Next -> Browse -> Apache extracted -> Finish.
 
 # Test
