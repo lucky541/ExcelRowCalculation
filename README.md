@@ -11,9 +11,6 @@
 - Right Click on Project -> Properties -> Deployment Assembly -> Add -> Java Build Path entities -> next -> Maven Dependencies -> Finish-Apply->Ok.
 - Right Click on Project -> Run As -> Run on Server -> Apache -> Tomcat v8.5 Server -> Next -> Browse -> Apache extracted -> Finish.
 
-# Test
-- Navigate http://localhost:8080/DemoProject
-- Add `/cal?s=YOUR_EXPRESSION" 
-- And Enter
-E.g. http://localhost:8080/DemoProject/cal?s=BAA <br>
-output: {"result":"result 1379"}
+# To check out Swagger Api Doc
+- Navigate http://localhost:8080/BasicEcommerce/swagger-ui.html
+
